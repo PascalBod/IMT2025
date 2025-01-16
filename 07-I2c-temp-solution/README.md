@@ -38,7 +38,7 @@ The I2C initialization code can be found in the following way:
 
 ### Maximum number of temperature samples per second
 
-In page 5 of the Si7021 data sheet, table 3 provides the typical conversion time for temperature: 7 ms, for a 14-bit definition (the default value).
+In page 5 of the Si7021 data sheet, table 2 provides the typical conversion time for temperature: 7 ms, for a 14-bit definition (the default value).
 
 Consequently, the maximum number of temperature samples per second that can be retrieved, without considering th I2C communication time, is 1000 / 7 i.e. around 143 samples per second.
 
